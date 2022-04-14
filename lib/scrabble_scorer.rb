@@ -1,6 +1,6 @@
 require('pry')
 
 def word_breaker(user_word)
-  stuff
-  end
+  letter_array=user_word.split("")
+  letter_array
 end
