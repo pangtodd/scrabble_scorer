@@ -22,3 +22,12 @@ def sort(letter)
     1
   end
 end
+
+def combo(user_word)
+  score_array=word_breaker(user_word)
+  final_score=0
+  score_array.each do |array_element|
+    final_score= final_score+(sort(array_element))
+  end
+  final_score
+end
