@@ -8,7 +8,9 @@ end
 def sort(letter)
   if letter == "k"
     5
-  else letter == "q"||"z"
+  elsif (letter == "j")||(letter =="x")
+    8
+  else (letter == "q")||(letter =="z")
     10
   end
 end
