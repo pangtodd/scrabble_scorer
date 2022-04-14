@@ -8,10 +8,13 @@ describe ('#word_breaker') do
 end
 
 describe ('#sort')do
-  it('should evaluate a letter and return a numeric value based on the letter')do
+  it('should evaluate a letter and return a numeric value based on the letter- k')do
     expect(sort("k")).to eq(5)
   end
-  it('should evaluate a letter and return a numeric value based on the letter')do
+  it('should evaluate a letter and return a numeric value based on the letter- q and z')do
     expect(sort("z")).to eq(10)
+  end
+  it('should evaluate a letter and return a numeric value based on the letter- j and x')do
+    expect(sort("x")).to eq(8)
   end
 end    
